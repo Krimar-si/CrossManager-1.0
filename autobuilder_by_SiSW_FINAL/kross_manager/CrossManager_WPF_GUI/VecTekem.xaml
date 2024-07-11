@@ -1,0 +1,35 @@
+﻿<Window x:Class="CrossManager_WPF_GUI.VecTekem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+    Title="Več tekem" Height="200" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/runners.jpg" Opacity="0.60"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Padding="2" HorizontalAlignment="Left">Ime združene tekme:</Label>
+            <TextBox Name="txtbx_tekmaName" Padding="2"></TextBox>
+
+            <Label>Število tekem, ki jih želite združiti:</Label>
+            <WindowsFormsHost Grid.Column="0" Grid.Row="1">
+                <Forms:NumericUpDown Minimum="2" Maximum="100" x:Name="stZdruzitev"></Forms:NumericUpDown>
+            </WindowsFormsHost>
+
+        </StackPanel>
+        
+        <Grid Grid.Row="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.Column="0" Click="zdruzi_Click">Združi</Button>
+        <Button Grid.Column="1" Click="preklici_Click">Prekliči</Button>
+            </Grid>
+    </Grid>
+</Window>

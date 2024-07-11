@@ -1,0 +1,7 @@
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\bin\Release\InputLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\bin\Release\InputLibrary.pdb
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\bin\Release\CrossManagerLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\bin\Release\CrossManagerLibrary.pdb
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\obj\Release\InputLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\InputLibrary\obj\Release\InputLibrary.pdb

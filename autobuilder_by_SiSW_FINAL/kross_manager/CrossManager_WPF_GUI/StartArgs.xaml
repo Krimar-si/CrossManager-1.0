@@ -1,0 +1,38 @@
+﻿<Window x:Class="CrossManager_WPF_GUI.StartArgs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Pozdravno okno" Height="430" Width="640" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/Running.jpg"></ImageBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="Nastavitve">
+                <MenuItem Header="Nastavitev čitalnika" Click="mn_configure_scanner_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="O programu">
+                <MenuItem Header="Video predstavitve">
+                    <MenuItem Header="Predstavitev čitalca" Click="video_Click1"></MenuItem>    
+                    <MenuItem Header="Priprava tekme" Click="video_Click2"></MenuItem>
+                    <MenuItem Header="Tekma" Click="video_Click3"></MenuItem>
+                    <MenuItem Header="Po tekmi" Click="video_Click4"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Pomoč" Click="pomoc_Click"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Vizitka" Click="vizitka_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+
+        <Button Grid.Row="1" Name="novaTekma">Nova tekma</Button>
+        <Button Grid.Row="2" Name="nadaljevanjeTekme" Click="nadaljevanjeTekme_Click">Začni shranjeno tekmo</Button>
+        <Button Grid.Row="3" Name="porociloTekme" Click="btn_porocilo_Click">Poročilo tekme</Button>
+        <Button Grid.Row="4" HorizontalAlignment="Right" Click="exitApp">Izhod</Button>
+    </Grid>
+</Window>

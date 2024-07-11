@@ -1,0 +1,28 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CrossManager_WPF_GUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="scannerInputRegex" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D[0-9]</Value>
+    </Setting>
+    <Setting Name="scannerIntIdx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="diplomas_x" Type="System.String" Scope="User">
+      <Value Profile="(Default)">105,105,105,53,159</Value>
+    </Setting>
+    <Setting Name="diplomas_y" Type="System.String" Scope="User">
+      <Value Profile="(Default)">265,170,130,50,50</Value>
+    </Setting>
+    <Setting Name="diplomas_mentor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Janez Novak</Value>
+    </Setting>
+    <Setting Name="diplomas_kraj" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ljubljana</Value>
+    </Setting>
+    <Setting Name="diplomas_besedilo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Za doseženo {0}. mesto
+na šolskem tekmovanju iz krosa.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

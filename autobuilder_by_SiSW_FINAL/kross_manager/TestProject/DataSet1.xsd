@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TablePropName="DataTable1" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ime" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="Ime" msprop:Generator_ColumnPropNameInRow="Ime" msprop:Generator_ColumnVarNameInTable="columnIme" msprop:Generator_ColumnPropNameInTable="ImeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Priimek" msprop:Generator_UserColumnName="Priimek" msprop:Generator_ColumnPropNameInRow="Priimek" msprop:Generator_ColumnVarNameInTable="columnPriimek" msprop:Generator_ColumnPropNameInTable="PriimekColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="bla" msprop:Generator_UserColumnName="bla" msprop:Generator_ColumnPropNameInRow="bla" msprop:Generator_ColumnVarNameInTable="columnbla" msprop:Generator_ColumnPropNameInTable="blaColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tekmovalec" msprop:Generator_UserTableName="Tekmovalec" msprop:Generator_RowDeletedName="TekmovalecRowDeleted" msprop:Generator_TableClassName="TekmovalecDataTable" msprop:Generator_RowChangedName="TekmovalecRowChanged" msprop:Generator_RowClassName="TekmovalecRow" msprop:Generator_RowChangingName="TekmovalecRowChanging" msprop:Generator_RowEvArgName="TekmovalecRowChangeEvent" msprop:Generator_RowEvHandlerName="TekmovalecRowChangeEventHandler" msprop:Generator_TablePropName="Tekmovalec" msprop:Generator_TableVarName="tableTekmovalec" msprop:Generator_RowDeletingName="TekmovalecRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Ime" msprop:Generator_UserColumnName="Ime" msprop:Generator_ColumnPropNameInRow="Ime" msprop:Generator_ColumnVarNameInTable="columnIme" msprop:Generator_ColumnPropNameInTable="ImeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Priimek" msprop:Generator_UserColumnName="Priimek" msprop:Generator_ColumnPropNameInRow="Priimek" msprop:Generator_ColumnVarNameInTable="columnPriimek" msprop:Generator_ColumnPropNameInTable="PriimekColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Razvrstitev" msprop:Generator_UserTableName="Razvrstitev" msprop:Generator_RowDeletedName="RazvrstitevRowDeleted" msprop:Generator_TableClassName="RazvrstitevDataTable" msprop:Generator_RowChangedName="RazvrstitevRowChanged" msprop:Generator_RowClassName="RazvrstitevRow" msprop:Generator_RowChangingName="RazvrstitevRowChanging" msprop:Generator_RowEvArgName="RazvrstitevRowChangeEvent" msprop:Generator_RowEvHandlerName="RazvrstitevRowChangeEventHandler" msprop:Generator_TablePropName="Razvrstitev" msprop:Generator_TableVarName="tableRazvrstitev" msprop:Generator_RowDeletingName="RazvrstitevRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mesto" msprop:Generator_UserColumnName="Mesto" msprop:Generator_ColumnPropNameInRow="Mesto" msprop:Generator_ColumnVarNameInTable="columnMesto" msprop:Generator_ColumnPropNameInTable="MestoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTekmovalca" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="IdTekmovalca" msprop:Generator_ColumnPropNameInRow="IdTekmovalca" msprop:Generator_ColumnVarNameInTable="columnIdTekmovalca" msprop:Generator_ColumnPropNameInTable="IdTekmovalcaColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DataTable1Key1">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:Ime" />
+    </xs:unique>
+    <xs:unique name="TekmovalecKey1">
+      <xs:selector xpath=".//mstns:Tekmovalec" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,57 @@
+***  Installation Started 09/22/2008 20:25  ***
+Title: Magic ISO Maker v5.5 (build 0272) Installation
+Source: C:\Downloads\Setup_MagicISO.exe | 09-22-2008 | 20:25:52 | 3113143
+Made Dir: C:\Program Files\MagicISO
+File Copy: C:\Program Files\MagicISO\UNWISE.EXE | 05-10-2001 | 10:04:28 | | 162304 | 432c52a3
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Magic ISO Maker v5.5 (build 0272)
+RegDB Val: Magic ISO Maker v5.5 (build 0272)
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Magic ISO Maker v5.5 (build 0272)
+RegDB Val: C:\PROGRA~1\MagicISO\UNWISE.EXE C:\PROGRA~1\MagicISO\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: C:\Program Files\MagicISO\miso_lib.dll | 05-22-2008 | 21:39:22 | | 55296 | fd59781d
+File Copy: C:\Program Files\MagicISO\misosh.dll | 05-22-2008 | 22:57:26 | 5.3.0.198 | 20992 | df12abae
+File Copy: C:\Program Files\MagicISO\MagicISO.ico | 02-27-2003 | 14:10:58 | | 23558 | 8c3ccf4b
+File Copy: C:\Program Files\MagicISO\miso.exe | 09-08-2007 | 23:10:26 | 3.0.0.95 | 316416 | c815a162
+File Copy: C:\Program Files\MagicISO\cdburner.ico | 05-22-2003 | 10:58:10 | | 2550 | c3ce8e3
+File Copy: C:\Program Files\MagicISO\MagicISO.chm | 07-24-2007 | 22:23:36 | | 799562 | 308109ac
+File Copy: C:\Program Files\MagicISO\MagicISO.exe | 07-31-2008 | 10:29:28 | 5.5.0.272 | 1764864 | d04a6704
+Made Dir: C:\Users\szitnik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MagicISO
+Shell Link: C:\Users\szitnik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MagicISO\MagicISO.lnk
+Link Info: C:\Program Files\MagicISO\MagicISO.exe |  | C:\PROGRA~1\MagicISO\MagicISO.ico | 0 | 1 | 0 | 
+Shell Link: C:\Users\szitnik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MagicISO\MagicISO Help.lnk
+Link Info: C:\Program Files\MagicISO\MagicISO.chm |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\szitnik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MagicISO\Uninstall.lnk
+Link Info: C:\Program Files\MagicISO\UNWISE.EXE |  |  | 0 | 1 | 0 | 
+Shell Link: C:\Users\szitnik\Desktop\MagicISO.lnk
+Link Info: C:\Program Files\MagicISO\MagicISO.exe |  | C:\PROGRA~1\MagicISO\MagicISO.ico | 0 | 1 | 0 | 
+Shell Link: C:\Users\szitnik\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MagicISO\Magic CD & DVD Burner.lnk
+Link Info: C:\Program Files\MagicISO\MagicISO.exe |  | C:\PROGRA~1\MagicISO\cdburner.ico | 0 | 1 | 0 | /cdburner
+RegDB Key: MagicISO.Document\DefaultIcon
+RegDB Val: C:\PROGRA~1\MagicISO\MagicISO.ico,0
+RegDB Key: Software\MagicISO
+RegDB Val: C:\PROGRA~1\MagicISO
+RegDB Name: path
+RegDB Root: 1
+Self-Register: C:\Program Files\MagicISO\misosh.dll
+RegDB Key: .iso
+RegDB Val: MagicISO.Document
+RegDB Old: PowerISO
+RegDB Key: MagicISO.Document
+RegDB Val: MagicISO Document
+RegDB Key: MagicISO.Document\shell\open\command
+RegDB Val: C:\PROGRA~1\MagicISO\MagicISO.exe %1
+Execute RegSvr32.exe /u /s C:\PROGRA~1\MagicISO\misosh.dll (Wait)
+Execute RegSvr32.exe /u /s C:\PROGRA~1\MagicISO\misosh64.dll (Wait)
+RegDB Tree: SOFTWARE\MagicISO
+RegDB Root: 2
+RegDB Tree: Software\MagicISO
+RegDB Root: 1
+RegDB Key: .uif
+RegDB Val: MagicISO.Document
+RegDB Key: .daa
+RegDB Val: MagicISO.Document
+RegDB Old: PowerISO
+User Rights: Admin

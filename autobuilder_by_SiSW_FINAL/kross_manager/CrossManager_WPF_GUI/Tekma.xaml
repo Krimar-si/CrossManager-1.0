@@ -1,0 +1,73 @@
+﻿<Window x:Class="CrossManager_WPF_GUI.Tekma"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Tekma" WindowStartupLocation="CenterScreen" WindowStyle="None" WindowState="Maximized">
+    <Grid ClipToBounds="False">
+        <Grid.Background>
+            <ImageBrush ImageSource="images/Tekma.jpg" Opacity="0.40"></ImageBrush>
+        </Grid.Background>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <GroupBox Grid.Row="0" Header="Štoparica" Name="grpbx_stoparica" ClipToBounds="True">
+            <Label Name="stopWatchTxtBlck" Content="{Binding Path=Text}" FontFamily="Digital Readout UpRight" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="48">
+
+            </Label>    
+        </GroupBox>
+        
+        <GroupBox Grid.Row="1" Name="grpbx_tekmovanje" Header="Tekmovanje - skupina ">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <GroupBox Grid.Column="0" Header="Tekmovalci v teku">
+                    <ListView Margin="5" Padding="5" Name="lst_tekmovalci_unfinished">
+                        <ListView.View>
+                            <GridView>
+                                <GridView.Columns>
+                                    <GridViewColumn Header="Zaporedna številka" DisplayMemberBinding="{Binding Path=ID}" />
+                                    <GridViewColumn Header="Ime" DisplayMemberBinding="{Binding Path=First_name}" />
+                                    <GridViewColumn Header="Priimek" DisplayMemberBinding="{Binding Path=Last_name}" />
+                                    <GridViewColumn Header="Razred" DisplayMemberBinding="{Binding Path=Grade}" />
+                                    <GridViewColumn Header="Leto rojstva" DisplayMemberBinding="{Binding Path=Birth_date}" />
+                                </GridView.Columns>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </GroupBox>
+                
+                <GroupBox Grid.Column="1" Header="Nadzor tekmovanja">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        
+                        <Label Grid.Row="0" Content="Vnos tekmovalca:" />
+                        <Label Grid.Row="1" Width="Auto" Name="lbl_tekmovalecFinished" />
+                        <Button Grid.Row="2" Name="startButton" Click="btn_start_Click" Focusable="False">Začni tekmo skupine</Button>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+            
+        </GroupBox>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Button Grid.Column="0" Name="btn_nazaj" Focusable="False" Click="btn_nazaj_Click" Loaded="btn_nazaj_Loaded">Nazaj</Button>
+            <Button Grid.Column="1" Name="btn_naprej" Focusable="False" Click="btn_naprej_Click" Loaded="btn_naprej_Loaded">Naslednja skupina</Button>
+        </Grid>
+
+    </Grid>
+</Window>

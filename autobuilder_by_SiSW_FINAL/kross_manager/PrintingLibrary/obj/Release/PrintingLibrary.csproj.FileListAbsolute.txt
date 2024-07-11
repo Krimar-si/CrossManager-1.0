@@ -1,0 +1,10 @@
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\PrintingLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\PrintingLibrary.pdb
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\CrossManagerLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\InputLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\itextsharp.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\CrossManagerLibrary.pdb
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\bin\Release\InputLibrary.pdb
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\obj\Release\PrintingLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\PrintingLibrary\obj\Release\PrintingLibrary.pdb

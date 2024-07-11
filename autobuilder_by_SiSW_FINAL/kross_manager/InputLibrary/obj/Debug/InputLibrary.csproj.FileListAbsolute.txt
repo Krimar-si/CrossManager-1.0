@@ -1,0 +1,7 @@
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\bin\Debug\InputLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\bin\Debug\InputLibrary.pdb
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\bin\Debug\CrossManagerLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\bin\Debug\CrossManagerLibrary.pdb
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\obj\Debug\InputLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\InputLibrary\obj\Debug\InputLibrary.pdb

@@ -1,0 +1,10 @@
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\PrintingLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\PrintingLibrary.pdb
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\CrossManagerLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\InputLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\itextsharp.dll
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\CrossManagerLibrary.pdb
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\bin\Debug\InputLibrary.pdb
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\obj\Debug\PrintingLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\PrintingLibrary\obj\Debug\PrintingLibrary.pdb

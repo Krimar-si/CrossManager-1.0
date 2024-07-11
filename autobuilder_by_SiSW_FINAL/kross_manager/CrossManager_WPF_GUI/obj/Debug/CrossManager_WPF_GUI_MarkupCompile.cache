@@ -1,0 +1,17 @@
+﻿CrossManager_WPF_GUI
+
+
+winexe
+C#
+.cs
+D:\Visual Studio 2008\Projects\kross_manager\CrossManager_WPF_GUI\obj\Debug\
+CrossManager_WPF_GUI
+none
+false
+DEBUG;TRACE
+
+10-1077778797
+1-1829489009
+14-1904350957
+16-171143876
+App.xaml;StartArgs.xaml;PoTekmi.xaml;PripravaTekme.xaml;ScannerConfigurator.xaml;Start.xaml;Tekma.xaml;TiskanjeRezultatov.xaml;UrediTekmovalca.xaml;VecTekem.xaml;

@@ -1,0 +1,5 @@
+D:\Visual Studio 2008\Projects\kross_manager\CrossManagerLibrary\bin\Debug\CrossManagerLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\CrossManagerLibrary\bin\Debug\CrossManagerLibrary.pdb
+D:\Visual Studio 2008\Projects\kross_manager\CrossManagerLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2008\Projects\kross_manager\CrossManagerLibrary\obj\Debug\CrossManagerLibrary.dll
+D:\Visual Studio 2008\Projects\kross_manager\CrossManagerLibrary\obj\Debug\CrossManagerLibrary.pdb

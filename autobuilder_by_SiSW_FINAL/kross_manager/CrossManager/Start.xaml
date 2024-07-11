@@ -1,0 +1,19 @@
+﻿<Window x:Class="CrossManager.Start"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Start" Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        
+        <Button Grid.Row="0" Margin="5" Name="novaTekma" Click="novaTekma_Click">Nova Tekma</Button>
+        <Button Grid.Row="1" Margin="5" Name="nadaljevanjeTekme">Začni shranjeno tekmo</Button>
+        <Button Grid.Row="2" Margin="5" Name="porociloTekme">Poročilo Tekme</Button>
+        <Button Grid.Row="3" Margin="5" Padding="5" HorizontalAlignment="Right" Click="exitApp">Izhod</Button>
+    </Grid>
+</Window>

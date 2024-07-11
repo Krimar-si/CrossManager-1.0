@@ -1,0 +1,5 @@
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\CrossManagerLibrary\bin\Release\CrossManagerLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\CrossManagerLibrary\bin\Release\CrossManagerLibrary.pdb
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\CrossManagerLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\CrossManagerLibrary\obj\Release\CrossManagerLibrary.dll
+C:\Users\Slavko\Desktop\autobuilder_by_SiSW_FINAL\kross_manager\CrossManagerLibrary\obj\Release\CrossManagerLibrary.pdb
